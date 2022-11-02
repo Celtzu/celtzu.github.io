@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+table, th, td {
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
+.box {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display : inline-block ;
+}
+
+.navbar {
+	background-color: palevioletred;
+	width: 100%; 
+	height: 60px;
+}
+
+.link1 {
+	float: left;
+	background-color: #F8B0CF;
+	font-family: "Times New Roman";
+	font-size: 15px;
+	text-align: center;
+	height: 40px;
+	width: 450px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.link2 {
+	float: left;
+	background-color: #F8B0CF;
+	font-family: "Times New Roman";
+	font-size: 15px;
+	text-align: center;
+	height: 40px;
+	width: 450px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.link3 {
+	float: left;
+	background-color: #F8B0CF;
+	font-family: "Times New Roman";
+	font-size: 15px;
+	text-align: center;
+	height: 40px;
+	width: 450px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.link4 {
+	float: left;
+	background-color: #F8B0CF;
+	font-family: "Times New Roman";
+	font-size: 15px;
+	text-align: center;
+	height: 40px;
+	width: 450px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+
+.piklik {
+	background-color: #F8B0CF;
+	font-family: "Times New Roman";
+	text-align: center;
+	border: 2px dotted #F8042F;
+	width: 95%;
+	height: 145px;
+	margin-top: 20px;
+	margin-left: 43px;
+	margin-right: 20px;
+	float: left;
+}
+
+.kastid {
+	background-color: #F8B0CF;
+	font-family: "Times New Roman";
+	text-align: center;
+	border: 2px dotted #F8042F;
+	width: 30%;
+	height: 200px;
+	float: left;
+	margin-left: 43px;
+	margin-top: 20px;
+
+}
+
+@media only screen and (max-width: 320px) {
+	.box {
+    	background-color: white;
+		width: 100%;
+	}
+	
+	.navbar {
+		height: 165px;
+		width: 100%;
+	}
+	.link1 {
+		width: 100%;
+		height: 40px;
+		margin-top: 1px;
+		margin-left: 0px;
+	}
+	
+	.link2 {
+		width: 100%;
+		height: 40px;
+		margin-top: 1px;
+		margin-left: 0px;
+	}
+	
+	.link3 {
+		width: 100%;
+		height: 40px;
+		margin-top: 1px;
+		margin-left: 0px;
+	}
+	
+	.link4 {
+		width: 100%;
+		height: 40px;
+		margin-top: 1px;
+		margin-left: 0px;
+	}
+	
+	.piklik {
+		width: 100%;
+		margin-top: 10px;
+		margin-left: 0px;
+		height: 100px;
+	}
+	
+	.kastid {
+		width: 100%;
+		margin-top: 2px;
+		margin-left: 0px;
+		height: 100px;
+	}
+}
