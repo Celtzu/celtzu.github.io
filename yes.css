@@ -1,0 +1,37 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #F8B0CF;
+}
+
+/* center the box on the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* stack gif and text vertically */
+.kast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* make sure image and text behave normally */
+.kast img {
+    display: block;
+}
+
+.kast p {
+    display: block;
+    margin-top: 10px;
+    font-family: "Times New Roman";
+    font-size: 22px;
+}
+
+
