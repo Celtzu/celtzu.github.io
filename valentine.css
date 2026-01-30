@@ -97,7 +97,7 @@
 /* mobile */
 @media (max-width: 600px) {
     .kast {
-        max-width: 350px;
+        max-width: 300px;
         min-height: auto;
         padding: 16px;
     }
@@ -119,6 +119,7 @@
         padding: 6px 14px;
     }
 }
+
 
 
 
