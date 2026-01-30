@@ -54,7 +54,7 @@
     margin-top: 15%;
 
     display: flex;
-    flex-direction: column;   /* 👈 stack items vertically */
+    flex-direction: column;   /* stack items vertically */
     align-items: center;      /* center horizontally */
     justify-content: center;  /* center vertically */
     gap: 15px;                /* space between gif, text, buttons */
@@ -94,6 +94,34 @@
     color: white;
 }
 
+/* mobile */
+@media (max-width: 600px) {
+    .kast {
+        max-width: 350px;
+        min-height: auto;
+        padding: 16px;
+    }
+
+    .kast img {
+        width: 140px;
+    }
+
+    .kast p {
+        font-size: 16px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 200px;
+        font-size: 14px;
+    }
+}
 
 
 
